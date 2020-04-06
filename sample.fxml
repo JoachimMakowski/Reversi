@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="startWindow" fx:controller="sample.Controller" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml">
+<children>
+      <VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" >
+      <children>
+         <Label fx:id="witaj" text="WITAJ W REVERSI">
+            <font>
+               <Font size="38.0" />
+            </font>
+            <VBox.margin>
+               <Insets top="20.0" />
+            </VBox.margin>
+         </Label>
+         <Button fx:id="gra" mnemonicParsing="false" onAction="#rozpocznij_gre" prefHeight="54.0" prefWidth="232.0" text="ROZPOCZNIJ GRE">
+            <VBox.margin>
+               <Insets top="50.0" />
+            </VBox.margin>
+            <font>
+               <Font size="25.0" />
+            </font>
+         </Button>
+         <Button fx:id="opcje1" mnemonicParsing="false" onAction="#loadSecond" prefHeight="54.0" prefWidth="232.0" text="OPCJE">
+            <VBox.margin>
+               <Insets top="20.0" />
+            </VBox.margin>
+            <font>
+               <Font size="25.0" />
+            </font>
+         </Button>
+         <Button fx:id="wyjscie" mnemonicParsing="false" onAction="#wyjscie_z_programu" prefHeight="54.0" prefWidth="232.0" text="WYJSCIE">
+            <VBox.margin>
+               <Insets top="20.0" />
+            </VBox.margin>
+            <font>
+               <Font size="25.0" />
+            </font>
+         </Button>
+      </children>
+   </VBox>
+</children>
+</AnchorPane>
